@@ -1,0 +1,20 @@
+Cypress.Commands.add('acessarSite', (email, senha) =>{
+    cy.visit('/')
+    cy.get('.login').click()
+    cy.get('#email').type(email, {log: false})
+    cy.get('#passwd').type(senha, {log: false})
+    cy.get('#SubmitLogin > span').click()   
+})
+
+Cypress.Commands.add('incluirProdutosCarrinho', () =>{
+    cy.get('#search_query_top')
+        .clear()
+        .type('Printed Chiffon Dress')
+    cy.get('#searchbox > .btn').click()
+    cy.get('.first-in-line > .product-container > .left-block > .product-image-container > .product_img_link > .replace-2x').click()
+    cy.get('.icon-plus').click()
+    cy.get('#group_1').select('L')
+    cy.get('#color_15').click()
+    cy.get('.exclusive > span').click()
+    cy.get('.cross').click()
+})
