@@ -1,5 +1,4 @@
-# Teste automatizado API com o framework cypress 
-Testes automatizados API com o framework cypress.
+# Teste automatizado Web e API com o framework cypress 
 
 ### Por que Cypress.io ?
  Pela simplicidade de desenvolver, scripts de testes a nivel de Back-End.
