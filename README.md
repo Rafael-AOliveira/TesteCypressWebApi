@@ -1,13 +1,13 @@
-# Teste automatizado Web e API com o framework cypress 
+# Teste automatizado Web e API com o framework Cypress 
 
 ### Por que Cypress.io ?
  Pela simplicidade de desenvolver, scripts de testes a nivel de Back-End.
 
+### Foi utilizado as seguintes ferramentes para criar esse projeto
+ - [NodeJS](https://nodejs.org/pt-br/)
+ - [Visual Studio Code](https://code.visualstudio.com/)
+ - Cucumber
 
-### Instalação do ambiente:
-  1. [code.visualstudio](https://code.visualstudio.com/)
-  2. [nodejs](https://nodejs.org/en/download/)
-  3. [cypress.io](https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements)
 
 ## Exemplo de Instalação e execução
   ```cmd
@@ -21,12 +21,3 @@
   npm run cypress:run
 
   ```
- 
- 
- 
-  
-
-### Foi utilizado as seguintes ferramentes para criar esse projeto
- - [NodeJS](https://nodejs.org/pt-br/)
- - [Visual Studio Code](https://code.visualstudio.com/)
- - Cucumber
