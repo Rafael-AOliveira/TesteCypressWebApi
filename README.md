@@ -1,24 +1,33 @@
-<h1 align="center">
-    <p> 
-        Teste de Automação Keeggo
-    </p>
-</h1>
+# Teste automatizado API com o framework cypress 
+Testes automatizados API com o framework cypress.
 
-## Sobre:
-Projeto criado para apresentação de testes automatizados utilizando o **Cypress e Cucumber**.
+### Por que Cypress.io ?
+ Pela simplicidade de desenvolver, scripts de testes a nivel de Back-End.
 
-## Framework:
- - Cypress
 
-## Ferramentas:
+### Instalação do ambiente:
+  1. [code.visualstudio](https://code.visualstudio.com/)
+  2. [nodejs](https://nodejs.org/en/download/)
+  3. [cypress.io](https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements)
+
+## Exemplo de Instalação e execução
+  ```cmd
+
+  npm install --save-dev cypress@8.0.0 cypress-cucumber-preprocessor
+  
+  npm run cypress:open
+  
+  Utilize este comando para executar teste por linha comando
+  
+  npm run cypress:run
+
+  ```
+ 
+ 
+ 
+  
+
+### Foi utilizado as seguintes ferramentes para criar esse projeto
  - [NodeJS](https://nodejs.org/pt-br/)
  - [Visual Studio Code](https://code.visualstudio.com/)
  - Cucumber
-
-## Instalação e Configuração do Ambiente:
-
-Após as instalações do NodeJS e VS Code, com o VS Code aberto deve-se abrir uma pasta em que ficarão os arquivos do projeto, abrir o terminal e executar os comandos abaixo:
-
-- Instalação do Cypress:
-```bash
-npm install --save-dev cypress@ cypress-cucumber-preprocessor
